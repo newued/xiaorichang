@@ -11,6 +11,7 @@ text-align:center;
 color:#fff;
 font-size:16px;
 background-color:#00bdd3;
+box-shadow:rgba(0,0,0,0.2) 0 2px 8px;
 `
 export const LeftHeaderModule=styled.div`
 display:flex;

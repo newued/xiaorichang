@@ -44,6 +44,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }	
+a{text-decoration:none;color:#262626;}
 .App>.bottom_app{
 	position:fixed;
 	display: flex;
@@ -52,7 +53,8 @@ table {
 	bottom:0;
 	line-height:22px;
 	border-top:1px solid #e6e6e6;
-	box-shadow:rgba(0, 0, 0, 0.4) 2px 2px 8px;
+	background-color:#fff;
+	box-shadow:rgba(0, 0, 0, 0.2) 2px 2px 8px;
 }
 .App{
 	font-size:14px;
@@ -66,5 +68,7 @@ table {
 	text-align:center;
 	margin:8px auto;
 }
+.flex-direction-row{display:flex;width:100%;    justify-content: space-between;}
+.flex-direction-column{display:flex;flex-direction:column;    align-self: center;}
 
 `
